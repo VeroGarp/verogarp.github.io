@@ -1,0 +1,129 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.background {
+  /* The image used */
+  /* background-image: url("assets/background/background_image01.jpg"); */
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+.nav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: space-between; /* align horizontal */
+  margin-top: 20px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: flex-start; /* align horizontal */
+  align-items: flex-start; /* align vertical */
+  color: #f48fb1;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+.links {
+  text-decoration: none;
+  color: #f48fb1;
+  font-size: 24px;
+  margin-right: 40px;
+}
+.title-text {
+  text-align: center;
+  color: #f48fb1;
+}
+.title-text > h1 {
+  font-size: 96px;
+}
+.title-text > h3 {
+  font-size: 24px;
+}
+.social {
+  display: flex;
+  width: 100%;
+  justify-content: space-around; /* align horizontal */
+  align-items: center; /* align vertical */
+  margin-top: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.section-title {
+  font-size: 52px;
+  color: #f48fb1;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: 80%;
+  margin-top: 2em;
+}
+
+.important-description {
+  font-size: 26px;
+}
+
+.about-me-text {
+  font-size: 18px;
+  width: 40%;
+  margin-left: 50px;
+}
+
+.about-me-text > p {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.projects {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: 50%;
+  margin-top: 2em;
+}
+.projects > div {
+  font-size: 18px;
+  width: 40%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  flex-direction: column;
+}
+.projects > div > p {
+  font-size: 32px;
+}
+
+.coming-soon {
+  font-size: 64px;
+}
+
+.profile-image {
+  height: 70%;
+}
